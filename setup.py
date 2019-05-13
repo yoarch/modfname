@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="modfname",
-    version="1.0.2",
+    version="1.0.3",
     python_requires='>=3',
     author="yoarch",
     author_email="yo.managements@gmail.com",
