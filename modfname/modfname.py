@@ -280,7 +280,7 @@ def init_strs_to_dest_str(init_path, lowercase, uppercase, init_strs, dest_str, 
             if init_str in fname:
                 nb_occs[0] += 1
                 fpath = concatenate_paths(base_path, fname)
-                print("\nthere is " + COCCURRENCES + "\"%s\"" % init_str + CBASE + " in " + CFILE_PATHS + "%s" % fpath + CBWHITE)
+                print(CBASE + "\nthere is " + COCCURRENCES + "\"%s\"" % init_str + CBASE + " in " + CFILE_PATHS + "%s" % fpath + CBWHITE)
 
                 new_fname = fname.replace(init_str, dest_str)
                 mod_fname_check = input("\tchange " + COCCURRENCES + "%s" % fname + CBWHITE + " to " + COCCURRENCES +
