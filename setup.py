@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="modfname",
-    version="1.0.4",
+    version="1.1.4",
     python_requires='>=3',
     author="yoarch",
     author_email="yo.managements@gmail.com",
-    description="file and folder name modifier on the all system",
+    description="File and folder CLI name modifier on the all system",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/yoarch/modfname",
