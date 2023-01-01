@@ -82,7 +82,7 @@ def _check_input_args(args):
     if len(args) < 3:
         _error("no enough args")
         raise ValueError("no enough args. Needs at least the initial string, the destination string and "
-                         "one file/folder path such as:\nmodfname -r \" \" \"_\" \"$HOME/dev/tests/this is a test\"")
+                         "one file/folder path such as:\nmodfname -r \" \" \"_\" \"$DEV_PATH/tests/this is a test\"")
 
 
 def _init_values():
